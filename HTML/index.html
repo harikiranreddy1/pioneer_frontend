@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+<title>Basic HTML web page</title>
+</head>
+
+<body>
+    <div>
+
+        <h2>Travel Plan Table</h2>
+        <table border="1">
+            <tr>
+                <th>Destination</th>
+                <th>Duration </th>
+                <th>Budget </th>
+            </tr>
+            <tr>
+                <td>Goa</td>
+                <td>5</td>
+                <td>25000</td>
+            </tr>
+            <tr>
+                <td>Manali</td>
+                <td>7</td>
+                <td>30000</td>
+            </tr>
+        </table>
+
+
+        <h1>Lists</h1>
+        <ol>
+            <li>Pakistan</li>
+            <li>Afghanistan</li>
+        </ol>
+        <ul>
+            <li> INDIA</li>
+            <li>USA</li>
+        </ul>
+
+
+        <h1>Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="travelers">Number of Travelers:</label>
+            <input type="number" id="travelers" name="travelers" required><br><br>
+            
+            <label>Travel Type:</label><br>
+            <input type="radio" id="solo" name="travel_type" value="Solo">
+            <label for="solo">Solo</label>
+            <input type="radio" id="group" name="travel_type" value="Group">
+            <label for="group">Group</label><br><br>
+            
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination">
+                <option value="goa">Goa</option>
+                <option value="manali">Manali</option>
+                <option value="kerala">Kerala</option>
+            </select><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+</body>
