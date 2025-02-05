@@ -1,0 +1,72 @@
+.card{
+
+   background-color: hsl(47, 88%, 63%);
+   margin-left: 22rem;
+   width: 50rem;
+   height: 38rem;
+   margin-top: 3rem;
+   position: relative;
+}
+
+.inner_card{
+    position: absolute;
+    border: 1px solid black;
+    width: 19rem;
+    height: 28rem;
+    left: 13rem;
+    top: 4rem;
+    padding: 22px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px black;
+}
+
+img{
+    border-radius: 10px;
+    width: 305px;
+}
+
+h4{
+    background-color: hsl(47, 88%, 63%);
+    width: 65px;
+    padding: 5px 5px 5px 12px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin-top: 12px;
+    margin-bottom: -8px;
+}
+
+h2:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.desc{
+
+    width: 18rem;
+    color: hsl(0, 0%, 42%);
+    
+}
+.info{
+    
+    position: relative;
+    top: 30px
+}
+
+.profile{
+
+    width: 27px;
+}
+
+ .profile_name{
+    position: absolute;
+    top: -11px;
+    left: 36px;
+    bottom: 8px;
+    
+    font-weight: 700;
+    font-size: 16px;
+}
