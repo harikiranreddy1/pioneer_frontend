@@ -2,9 +2,7 @@ body{
     background-color: hsl(210, 46%, 95%);
 }
 
-.head{
 
-}
 .dname{
     position: relative;
 }
@@ -92,8 +90,7 @@ body{
     padding-right: 23px;
 }
 
-.foot{
-}
+
 .harmon{
     background-color: hsl(0, 0%, 100%);
     width: 305px;
@@ -154,8 +151,7 @@ body{
     padding-right: 10px;
 }
 
-.total{
-}
+
 .kira{
     background-color: hsl(0, 0%, 100%);
     position: absolute;
